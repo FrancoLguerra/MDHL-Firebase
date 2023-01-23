@@ -40,13 +40,12 @@ nav img{
 }
 .container{
     padding: 0%;
-    padding-top: 1vh;
+    padding-top:1vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
-    
-    
+
     
 }
 
@@ -145,8 +144,8 @@ nav img{
 .lista-menu >li >a{
     color: rgb(125, 212, 147);
     text-decoration: none;
-    font-size: 3.5rem;
-    font-weight: 700;
+    font-size: 2.5rem;
+    font-weight: 500;
    
 }
 
@@ -197,4 +196,4 @@ nav img{
        padding: 0;
    }
 }
-
+}
