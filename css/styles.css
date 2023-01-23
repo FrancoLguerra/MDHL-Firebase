@@ -117,10 +117,16 @@ nav img{
     text-align: center;
     margin:0;
     padding:0;
-    padding-top:1%;
+   
     background-color: #f5f5f5;
     color: #333;
     overflow-y:scroll;
+}
+.mision-about{
+    padding-top:30% !important;
+}
+.vision-about{
+    padding-top:18% !important;
 }
 .general-info-about{
     display: flex;
@@ -131,7 +137,7 @@ nav img{
     text-align: center;
     margin:0;
     padding:0;
-    padding-top:1%;
+    padding-top:4%;
     background-color: #f5f5f5;
     color: #333;
     background-color: rgb(72, 255, 0);
