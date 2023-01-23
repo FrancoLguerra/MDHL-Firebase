@@ -71,7 +71,7 @@ nav img{
     justify-content: space-around;
     flex-direction: column;
     width: 100vw;
-    height: 80vh;
+    height: 100%;
     align-items: center;
     text-align: center;
     padding-bottom:2%;
