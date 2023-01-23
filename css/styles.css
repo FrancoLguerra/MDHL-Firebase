@@ -68,7 +68,7 @@ nav img{
 }
 .show{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-direction: column;
     width: 100vw;
     height: 90vh;
