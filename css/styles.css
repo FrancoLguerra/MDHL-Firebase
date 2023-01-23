@@ -177,7 +177,10 @@ nav img{
     padding:0;
     width: 40vw;
     border: #ba21e9;
+    margin-bottom: 10%;
 }
+    
+
 .table-game-info > thead > tr > th{
     background-color: #ba21e9;
     color: #fff;
@@ -192,7 +195,29 @@ nav img{
     padding: 1em;
     border: 1px solid #ba21e9;
 }
+.container-inferior-info{
+    width:85vw;
+    display:flex;
+    flex-direction: column;
+}
+.container-inferior-info > h4{
+    text-align: center;
+    color: rgb(167, 165, 165);
+    font-size: 1.5rem;
+    font-weight:bolder;
+    margin-bottom: 1em;
+}
+.container-inferior-info > p{
+    text-align: center;
+    color: rgb(124, 113, 113);
+    font-size: 1rem;
+    font-weight:bolder;
+    margin-bottom: 1em;
 
+
+}
+
+}
 @media (min-width: 510px){
    body{
        background-color: #b92020;
@@ -203,4 +228,4 @@ nav img{
        padding: 0;
    }
 }
-}
+
