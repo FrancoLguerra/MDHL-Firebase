@@ -37,15 +37,16 @@
           <li class="dropdown-item"><a href="./registration.html">Registration</a></li>
         <li class="dropdown-item"><a href="./contact.html">Contact</a></li>
       </ul>
-      <section>
+      <section class="pb-4">
         <form action="">
           <input type="text" class="input-registration" placeholder="Player's First Name:">
           <input type="text" class="input-registration" placeholder="Last Name:">
           <input type="text" class="input-registration" placeholder="Street Address:">
           <input type="text" class="input-registration" placeholder="City">
           <input type="text" class="input-registration" placeholder="Zip Code:">
-          <label for="date">Birth Date (mm/dd/yyyy) <input type="date"  class="input-registration"placeholder="Birth Date (mm/dd/yyyy):"></label>
-          
+          <div class="input-registration" style="margin-left:7.5%;">
+          <label for="date" class=""><small> Birth Date (mm/dd/yyyy)</small> <small> <input type="date"  class=""placeholder="Birth Date (mm/dd/yyyy):" style="background-color:rgb(80, 79, 79);"></small></label>
+        </div>
           <input type="text" class="input-registration" placeholder="Parent/Guardian Name:">
           <input type="number"  class="input-registration"placeholder="Contact Phone:">
           <input type="email"  class="input-registration"placeholder="Contact Email:">
@@ -63,9 +64,9 @@
             <option value="4th">4th</option>
             <option value="5th">5th</option>
           </select>
-          <label class="mt-4" for="closest-schools">Which elementary schools do you live near?</label>
+          <label class="mt-4" for="closest-schools"><small> Which elementary schools do you live near?</small></label>
           <select name="closest-schools" class="select-registration" id="closest-schools">
-            <option value="school" disabled selected>First Closest School:</option>
+            <option value="school" disabled selected>First Closest</option>
             <option value="AJ-Katzenmaier">AJ Katzenmaier</option>
             <option value="Greenbay">Greenbay</option>
             <option value="Howard-A-Yeager">Howard A Yeager</option>
@@ -74,7 +75,7 @@
             <option value="South-Elementary">South Elementary</option>
           </select>
           <select name="closest-schools-2" class="select-registration" id="closest-schools-2">
-            <option value="school" disabled selected>Second Closest School:</option>
+            <option value="school" disabled selected>Second Closest</option>
             <option value="AJ-Katzenmaier">AJ Katzenmaier</option>
             <option value="Greenbay">Greenbay</option>
             <option value="Howard-A-Yeager">Howard A Yeager</option>
@@ -141,12 +142,12 @@
           </select>
 
           <h2 class="mt-4">Permission to Play</h2>
-          <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with soccer and in consideration for the "League" accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the program and/or being transported to or from MDHL sponsored activities, which transportation.</p>
+          <p class="m-3">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with soccer and in consideration for the "League" accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the program and/or being transported to or from MDHL sponsored activities, which transportation.</p>
           <p>By entering my name below, I hereby agree and authorize the above. In addition, by entering my name below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
 
           <input class="input-registration" type="text" placeholder="Parent/Guardian Signature:">
           <input class="input-registration" type="text" placeholder="Date:">
-          <button class="btn btn-secondary btn-lg" type="submit">Enviar</button>
+          <button class="btn btn-secondary btn-lg mt-4" type="submit">Enviar</button>
 
 
         </form>
