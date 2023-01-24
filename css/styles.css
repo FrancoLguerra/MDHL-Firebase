@@ -230,7 +230,7 @@ nav img{
     margin-bottom: 1em;
     background-color:rgb(80, 79, 79);
     color:aliceblue;
-    box-shadow: #ba21e9 5px 5px 10px;
+    box-shadow: #584c5c 5px 5px 10px;
     width: 95vw;
     text-align: center;
     
@@ -251,7 +251,7 @@ nav img{
 .accordion-item >h2 > button{
    
     font-size: 1.7rem;
-    font-weight: 500;
+    font-weight: bold;
     text-align: center;
     color: #937a9b;
     border:none;
@@ -276,20 +276,50 @@ nav img{
 .accordion-item >h2 > button:hover{
     background-color: #ba21e9;;
     color: white;
-    border-radius:8% 8% 0% 0%;
+    border-radius:7% 7% 0% 0%;
 
 
 }
 .input-registration{
     width:80vw;
+    background-color: rgb(80, 79, 79);
+    border: solid 1px #ffc107;
+    margin-top: 0.5em;
+    color: whitesmoke;
+    
 
 }
+
 .select-registration{
     width:40vw;
+    background-color: #cc93dd;
+    border: solid 1px #ffc107;
+    color:whitesmoke;
 }
-label > input[type="checkbox"]{
+/* label > input[type="checkbox"]{
     width: 20vw;
     justify-content: space-between;
+} */
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    text-align: center;
+    margin:0;
+    padding:0;
+    background-color: rgb(80, 79, 79);
+    color: whitesmoke;
+}
+.position-registration{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 1em;
+    margin-top:1em;
+    width: 95vw;
 }
 }
 @media (min-width: 510px){

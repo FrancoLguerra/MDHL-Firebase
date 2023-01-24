@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../css/styles.css" />
     <title>MDHL-Mobile</title>
   </head>
-  <body>
+  <body >
     <header>
       <nav>
         <img src="../assets/img/mdhl_logo.png" alt="Logo" />
@@ -28,7 +28,7 @@
     </div>
       </nav>
     </header>
-    <div class="container">
+    <div class="container ">
       <ul class="lista-menu" id="lista-menu">
         <li class="dropdown-item"><a href="../index.html">Home</a></class="dropdown-item">
         <li class="dropdown-item"><a href="./about.html">About</a></li>
@@ -49,12 +49,12 @@
           <input type="text" class="input-registration" placeholder="Parent/Guardian Name:">
           <input type="number"  class="input-registration"placeholder="Contact Phone:">
           <input type="email"  class="input-registration"placeholder="Contact Email:">
-          <select name="genre" class="select-registration" id="genre">
+          <select name="genre" class="select-registration mt-3" id="genre">
             <option value="male" disabled selected>Genre</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
           </select>
-          <select name="grade" class="select-registration" id="grade">
+          <select name="grade" class="select-registration mt-3" id="grade">
             <option value="grade" disabled selected>Grade</option>
             <option value="pre-school">Pre-school</option>
             <option value="1st">1st</option>
@@ -63,7 +63,7 @@
             <option value="4th">4th</option>
             <option value="5th">5th</option>
           </select>
-          <label for="closest-schools">Which elementary schools do you live near?</label>
+          <label class="mt-4" for="closest-schools">Which elementary schools do you live near?</label>
           <select name="closest-schools" class="select-registration" id="closest-schools">
             <option value="school" disabled selected>First Closest School:</option>
             <option value="AJ-Katzenmaier">AJ Katzenmaier</option>
@@ -82,8 +82,9 @@
             <option value="North-Elementar">North Elementary</option>
             <option value="South-Elementary">South Elementary</option>
           </select>
+          <div class="position-registration">
           <label for="position">
-            What position(s) do you normally play? <span>(check all that apply)</span>}
+            <small> What position(s) do you normally play? (check all that apply)</small>
             <label for="forward">Forwards
               <input type="checkbox" name="position" id="forward">
             </label>
@@ -96,9 +97,10 @@
           <label for="goalkeeper">Goalkeeper
             <input type="checkbox" name="position" id="goalkeeper">
           </label>
-
+        </div>
+        <div class="position-registration">
           <label for="position">
-            What position(s) do you want to play? <span>(check all that apply)</span>}
+            <small>What position(s) do you want to play? (check all that apply)</small>
             <label for="forward">Forwards
               <input type="checkbox" name="position" id="forward">
             </label>
@@ -111,10 +113,12 @@
           <label for="goalkeeper">Goalkeeper
             <input type="checkbox" name="position" id="goalkeeper">
           </label>
-
-          <label for="haveAUniform">Already Have a Uniform
+        </div>
+        <div class="mb-3">
+          <label for="haveAUniform" >Already Have a Uniform
             <input type="checkbox">
           </label>
+        </div>
           <select name="jersey-size" class="select-registration" id="jersey-size">
             <option value="jersey-size" disabled selected>Jersey Size</option>
             <option value="youth-small">Youth Small</option>
@@ -136,13 +140,13 @@
             <option value="small">Small</option>
           </select>
 
-          <h2>Permission to Play</h2>
+          <h2 class="mt-4">Permission to Play</h2>
           <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL). In recognizing the possibility of physical injury associated with soccer and in consideration for the "League" accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or on behalf of the registrant as a result of the registrant's participation in the program and/or being transported to or from MDHL sponsored activities, which transportation.</p>
           <p>By entering my name below, I hereby agree and authorize the above. In addition, by entering my name below, I also acknowledge that I have read the cancellation policy and agree to its terms.</p>
 
-          <input type="text" placeholder="Parent/Guardian Signature:">
-          <input type="text" placeholder="Date:">
-          <button type="submit">Enviar</button>
+          <input class="input-registration" type="text" placeholder="Parent/Guardian Signature:">
+          <input class="input-registration" type="text" placeholder="Date:">
+          <button class="btn btn-secondary btn-lg" type="submit">Enviar</button>
 
 
         </form>
