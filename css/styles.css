@@ -112,7 +112,7 @@ nav img{
     padding:0;
     background-color: #f5f5f5;
     color: #333;
-    background-color: aqua;
+    background-color: #ffc107;
 
 }
 .mision-about , .vision-about{
@@ -125,22 +125,23 @@ nav img{
     padding:0;
    
     background-color: #f5f5f5;
-    color: #333;
+   
     overflow-y:scroll;
+}
+.mision-about , .vision-about , .general-info-about{
+    background-color: blueviolet;
+    color: rgb(231, 230, 157);
 }
 
 .general-info-about{
     display: flex;
     justify-content: space-around;
-    width: 100vw;
-    height: 45vh;
+    width: 98%;
     text-align: center;
     margin:0;
-    padding:0;
+    padding:0 2% 0 2%;
     padding-top:4%;
-    background-color: #f5f5f5;
-    color: #333;
-    background-color: rgb(72, 255, 0);
+   
     overflow-y:scroll;
 
 
