@@ -39,21 +39,22 @@
       </ul>
       <section>
         <form action="">
-          <input type="text" placeholder="Player's First Name:">
-          <input type="text" placeholder="Last Name:">
-          <input type="text" placeholder="Street Address:">
-          <input type="text" placeholder="City">
-          <input type="text" placeholder="Zip Code:">
-          <input type="date" placeholder="Birth Date (mm/dd/yyyy):">
-          <input type="text" placeholder="Parent/Guardian Name:">
-          <input type="number" placeholder="Contact Phone:">
-          <input type="email" placeholder="Contact Email:">
-          <select name="genre" id="genre">
+          <input type="text" class="input-registration" placeholder="Player's First Name:">
+          <input type="text" class="input-registration" placeholder="Last Name:">
+          <input type="text" class="input-registration" placeholder="Street Address:">
+          <input type="text" class="input-registration" placeholder="City">
+          <input type="text" class="input-registration" placeholder="Zip Code:">
+          <label for="date">Birth Date (mm/dd/yyyy) <input type="date"  class="input-registration"placeholder="Birth Date (mm/dd/yyyy):"></label>
+          
+          <input type="text" class="input-registration" placeholder="Parent/Guardian Name:">
+          <input type="number"  class="input-registration"placeholder="Contact Phone:">
+          <input type="email"  class="input-registration"placeholder="Contact Email:">
+          <select name="genre" class="select-registration" id="genre">
             <option value="male" disabled selected>Genre</option>
             <option value="male">Male</option>
             <option value="female">Female</option>
           </select>
-          <select name="grade" id="grade">
+          <select name="grade" class="select-registration" id="grade">
             <option value="grade" disabled selected>Grade</option>
             <option value="pre-school">Pre-school</option>
             <option value="1st">1st</option>
@@ -63,7 +64,7 @@
             <option value="5th">5th</option>
           </select>
           <label for="closest-schools">Which elementary schools do you live near?</label>
-          <select name="closest-schools" id="closest-schools">
+          <select name="closest-schools" class="select-registration" id="closest-schools">
             <option value="school" disabled selected>First Closest School:</option>
             <option value="AJ-Katzenmaier">AJ Katzenmaier</option>
             <option value="Greenbay">Greenbay</option>
@@ -72,7 +73,7 @@
             <option value="North-Elementar">North Elementary</option>
             <option value="South-Elementary">South Elementary</option>
           </select>
-          <select name="closest-schools-2" id="closest-schools-2">
+          <select name="closest-schools-2" class="select-registration" id="closest-schools-2">
             <option value="school" disabled selected>Second Closest School:</option>
             <option value="AJ-Katzenmaier">AJ Katzenmaier</option>
             <option value="Greenbay">Greenbay</option>
@@ -114,7 +115,7 @@
           <label for="haveAUniform">Already Have a Uniform
             <input type="checkbox">
           </label>
-          <select name="jersey-size" id="jersey-size">
+          <select name="jersey-size" class="select-registration" id="jersey-size">
             <option value="jersey-size" disabled selected>Jersey Size</option>
             <option value="youth-small">Youth Small</option>
             <option value="youth-medium">Youth Medium</option>
@@ -124,7 +125,7 @@
             <option value="medium">Medium</option>
             <option value="small">Small</option>
           </select>
-          <select name="shorts-size" id="shorts-size">
+          <select name="shorts-size" class="select-registration" id="shorts-size">
             <option value="shorts-size" disabled selected>Shorts Size</option>
             <option value="youth-small">Youth Small</option>
             <option value="youth-medium">Youth Medium</option>

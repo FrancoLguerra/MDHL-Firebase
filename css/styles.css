@@ -236,6 +236,10 @@ nav img{
     
     
 }
+.accordion-body{
+    padding: 1% ;
+    padding-right: 2%;
+}
 .background-white{
     background-color: #ffc107;
     border:none !important;
@@ -275,6 +279,17 @@ nav img{
     border-radius:8% 8% 0% 0%;
 
 
+}
+.input-registration{
+    width:80vw;
+
+}
+.select-registration{
+    width:40vw;
+}
+label > input[type="checkbox"]{
+    width: 20vw;
+    justify-content: space-between;
 }
 }
 @media (min-width: 510px){
