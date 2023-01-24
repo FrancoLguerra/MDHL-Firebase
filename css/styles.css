@@ -118,8 +118,6 @@ nav img{
 .mision-about , .vision-about{
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    flex-direction: column;
     width: 46vw;
     height: 42vh;
     text-align: center;
@@ -130,16 +128,10 @@ nav img{
     color: #333;
     overflow-y:scroll;
 }
-.mision-about{
-    padding-top:30% !important;
-}
-.vision-about{
-    padding-top:18% !important;
-}
+
 .general-info-about{
     display: flex;
     justify-content: space-around;
-    align-items: center;
     width: 100vw;
     height: 45vh;
     text-align: center;
