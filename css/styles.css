@@ -1,6 +1,5 @@
 /*creo hoja de estilos pensando en mobile first*/
 
-@media (max-width:450px){
 
 /*estilos para el body*/
 
@@ -70,9 +69,6 @@ nav img{
     display: none;
     margin:0;
     padding:0;
-    
-    
-  
 }
 .show{
     display: flex;
@@ -132,6 +128,9 @@ nav img{
 .mision-about , .vision-about , .general-info-about{
     background-color: blueviolet;
     color: rgb(231, 230, 157);
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
 }
 
 .general-info-about{
@@ -222,15 +221,12 @@ nav img{
 }
 .accordion-item{
     border:none;
-
     margin-bottom: 1em;
     background-color:rgb(80, 79, 79);
     color:aliceblue;
     box-shadow: #b100ec 5px 5px 10px;
     width: 95vw;
     text-align: center;
-    
-    
 }
 .accordion-body{
     padding: 1% ;
@@ -317,15 +313,103 @@ section{
     margin-top:1em;
     width: 95vw;
 }
-}
+
 @media (min-width: 510px){
-   body{
-       background-color: #b92020;
-       font-family: 'Roboto', sans-serif;
-       font-size: 16px;
-       color: #333;
-       margin: 0;
-       padding: 0;
-   }
+    
+    h1{
+        font-size: 4rem;
+    }
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: row;
+     
+    }
+
+    .dropdown{
+        display: none;
+    }
+    .lista-menu{
+        background-color: #ffc107;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        width: 80vw;
+        height: auto;
+        margin:0;
+        margin-bottom:4%;
+        padding:0;
+    }
+    .lista-menu >li >a{
+        color: blueviolet;
+        text-decoration: none;
+        font-size: 2.5rem;
+        font-weight: bolder;
+        box-shadow: 0 5px 5px -2px rgb(173, 3, 252);
+       
+    }
+    .mision-about , .vision-about , .general-info-about{
+        background-color: blueviolet;
+        color: rgb(231, 230, 157);
+        overflow-y:hidden;
+        display: flex;
+        justify-content: start;
+        flex-direction: column;
+        font-size: 2.5em;
+    }
+    h3{
+        font-size: 3rem;
+    }
+    .input-registration{
+        width:25%;
+        margin-top: 0.5em;
+        color: whitesmoke;
+    }
+    section{
+        display: flex;
+        width: 80vw;
+        margin:0;
+        padding:0;
+        background-color: rgb(80, 79, 79);
+        color: whitesmoke;
+        flex-direction: column;
+        justify-content: end;
+        align-items: flex-end;
+    }
+    .select-registration{
+        width:20%;
+    }
+    .position-registration{
+        display: flex;
+        margin-bottom: 1em;
+        margin-top:1em;
+        width: 80vw;
+        justify-content: center;
+    }
+    .accordion-item{
+        border:none;
+        margin-bottom: 1em;
+        background-color:rgb(80, 79, 79);
+        color:aliceblue;
+        box-shadow: #b100ec 5px 5px 10px;
+        width: 80vw;
+        padding:0;
+        text-align: start;
+    }
+    .accordion-body {
+        color: white;;
+        font-size: 1rem;
+        font-weight: bolder;
+        margin-bottom: 1em;
+        width: 70vw;
+        text-align: start;
+    }
+    .show{
+        width: 70vw;
+        text-align:start;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
 }
 
