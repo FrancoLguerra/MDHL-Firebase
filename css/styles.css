@@ -165,15 +165,15 @@ nav img{
     display:flex;
     background-color: blueviolet;
     height: 6em;
-    width: 90vw;
+    width: 95vw;
     align-items: center;
     text-align: center;
     margin-top: 1em;
     border-radius: 1em;
     box-shadow: #333 10px 5px 10px;
-    font-size: x-large;
+
     color: rgb(250, 222, 222);
-    font-weight: 700;
+    
     
 }
 
@@ -181,23 +181,28 @@ nav img{
 .event-card-date{
     display: flex;
     height: 100%;
-    width: 35%;
-    padding:0;
+    width: 40%;
+    padding:1%;
     flex-direction: column;
     margin-left: 0;
+    font-weight: bolder;
     align-items: center;
     justify-content: center;
-    background-color: rgb(196, 112, 112);
+    background-color: blueviolet;
+    font-size: large;
 }
 .event-card-text{
     display: flex;
     height: 100%;
-    width: 65%;
-    padding:0;
+    width: 60%;
+    padding:2%;
     flex-direction: column;
     margin-left: 0;
     align-items: center;
     justify-content: center;
+    background-color: rgb(158, 93, 219);
+    border-radius: 1em;
+    font-size: large;
 
 }
 .table-game-info{
