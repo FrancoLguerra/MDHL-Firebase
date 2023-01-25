@@ -177,6 +177,12 @@ nav img{
     
 }
 
+.sr-only{
+   font-size: 3.5rem;
+   color: #b100ec!important;
+    font-weight: bolder;
+}
+
 
 .event-card-date{
     display: flex;
@@ -495,5 +501,6 @@ section{
         margin-bottom: 1em;
         margin-left: 10%;
     }
+    
 }
 
